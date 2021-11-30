@@ -5,4 +5,8 @@ public class MathFunctions {
     public static String concatenate(String strA, String strB){
         return strA.concat(strB);
     }
+
+    public static squareRoot(double numberA){
+        return sqtr(numberA);
+    }
 }
