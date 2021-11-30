@@ -6,6 +6,15 @@ public class MathFunctions {
         return strA.concat(strB);
     }
 
+    public static int potInt(int a, int b){
+	    if(b == 0){
+			  return 1;
+		  }
+		  if(b == 1){
+			  return a;
+		  }
+		  return a * potInt(a,b-1);
+	  }
     public static squareRoot(double numberA){
         return sqtr(numberA);
     }
